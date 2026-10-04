@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 24px; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 15px; fill: #e0e0e0; text-anchor: middle; }
+      .section-header { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 18px; fill: #ffffff; }
+      .card-title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 15px; fill: #880e4f; }
+      .body-text { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 13px; fill: #212121; }
+      .formula-text { font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; fill: #b71c1c; }
+      .box { fill: #ffffff; stroke: #cfd8dc; stroke-width: 2; rx: 8; ry: 8; }
+      .header-box { fill: #ad1457; rx: 6; ry: 6; }
+      .badge { fill: #fce4ec; stroke: #f8bbd0; stroke-width: 1; rx: 4; ry: 4; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#f4f6f9"/>
+
+  <!-- Header -->
+  <rect x="20" y="20" width="960" height="90" fill="#880e4f" rx="10" filter="url(#shadow)"/>
+  <text x="500" y="55" class="title">೨. ಆಮ್ಲಗಳು, ಪ್ರತ್ಯಾಮ್ಲಗಳು ಮತ್ತು ಲವಣಗಳು</text>
+  <text x="500" y="85" class="subtitle">10ನೇ ತರಗತಿ ವಿಜ್ಞಾನ (ಭಾಗ-೧) - ಪರೀಕ್ಷಾ ಸಹಾಯಾರ್ಥಿ ಪೋಸ್ಟರ್ ಚಾರ್ಟ್</text>
+
+  <!-- Section 1: Indicators -->
+  <g transform="translate(20, 130)">
+    <rect x="0" y="0" width="960" height="150" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೧. ಸೂಚಕಗಳು ಮತ್ತು ಬಣ್ಣದ ಬದಲಾವಣೆಗಳು (Indicators)</text>
+    
+    <g transform="translate(30, 55)">
+      <rect x="0" y="0" width="280" height="80" class="badge"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">🍃 ನೈಸರ್ಗಿಕ ಸೂಚಕಗಳು</text>
+      <text x="140" y="48" class="body-text" text-anchor="middle">ಲಿಟ್ಮಸ್: ಆಮ್ಲ ➔ ಕೆಂಪು | ಪ್ರತ್ಯಾಮ್ಲ ➔ ನೀಲಿ</text>
+      <text x="140" y="68" class="body-text" text-anchor="middle">ಅರಿಶಿನ: ಪ್ರತ್ಯಾಮ್ಲದಲ್ಲಿ ಕೆಂಪು ಬಣ್ಣ</text>
+    </g>
+    <g transform="translate(340, 55)">
+      <rect x="0" y="0" width="280" height="80" class="badge"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">🧪 ಸಂಶ್ಲೇಷಿತ ಸೂಚಕಗಳು</text>
+      <text x="140" y="48" class="body-text" text-anchor="middle">ಫಿನಾಫ್ತಲೀನ್: ಪ್ರತ್ಯಾಮ್ಲದಲ್ಲಿ ಗುಲಾಬಿ</text>
+      <text x="140" y="68" class="body-text" text-anchor="middle">ಮಿಥೈಲ್ ಆರೆಂಜ್: ಆಮ್ಲದಲ್ಲಿ ಕೆಂಪು</text>
+    </g>
+    <g transform="translate(650, 55)">
+      <rect x="0" y="0" width="280" height="80" class="badge"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">🧅 ಘ್ರಾಣ ಸೂಚಕಗಳು</text>
+      <text x="140" y="48" class="body-text" text-anchor="middle">ಈರುಳ್ಳಿ, ವೆನಿಲ್ಲಾ, ಲವಂಗ ಎಣ್ಣೆ</text>
+      <text x="140" y="68" class="body-text" text-anchor="middle">ಪ್ರತ್ಯಾಮ್ಲದಲ್ಲಿ ವಾಸನೆ ಬದಲಾಗುತ್ತದೆ</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Chemical Reactions -->
+  <g transform="translate(20, 295)">
+    <rect x="0" y="0" width="960" height="230" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೨. ಆಮ್ಲಗಳು ಮತ್ತು ಪ್ರತ್ಯಾಮ್ಲಗಳ ರಾಸಾಯನಿಕ ವರ್ತನೆಗಳು</text>
+    
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="75" fill="#fefbe8" stroke="#fef08a" rx="6"/>
+      <text x="15" y="25" class="card-title">⚡ ಲೋಹಗಳೊಂದಿಗೆ ವರ್ತನೆ</text>
+      <text x="15" y="45" class="body-text">ಆಮ್ಲ/ಪ್ರತ್ಯಾಮ್ಲ + ಲೋಹ ➔ ಲವಣ + ಹೈಡ್ರೋಜನ್ (H₂) ಅನಿಲ</text>
+      <text x="15" y="65" class="formula-text">Zn + 2HCl ➔ ZnCl₂ + H₂↑</text>
+    </g>
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="75" fill="#fefbe8" stroke="#fef08a" rx="6"/>
+      <text x="15" y="25" class="card-title">💧 ತಟಸ್ಥೀಕರಣ ಕ್ರಿಯೆ (Neutralization)</text>
+      <text x="15" y="45" class="body-text">ಆಮ್ಲ + ಪ್ರತ್ಯಾಮ್ಲ ➔ ಲವಣ + ನೀರು (H₂O)</text>
+      <text x="15" y="65" class="formula-text">HCl + NaOH ➔ NaCl + H₂O</text>
+    </g>
+    <g transform="translate(20, 140)">
+      <rect x="0" y="0" width="920" height="75" fill="#f3e8ff" stroke="#e9d5ff" rx="6"/>
+      <text x="15" y="25" class="card-title">🧱 ಕಾರ್ಬೊನೇಟ್‌ಗಳೊಂದಿಗೆ ವರ್ತನೆ</text>
+      <text x="15" y="45" class="body-text">ಆಮ್ಲ + ಲೋಹದ ಕಾರ್ಬೊನೇಟ್ ➔ ಲವಣ + ನೀರು + ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ (CO₂)</text>
+      <text x="15" y="65" class="formula-text">Na₂CO₃ + 2HCl ➔ 2NaCl + H₂O + CO₂↑ (ಸುಣ್ಣದ ನೀರನ್ನು ಹಾಲಿನಂತೆ ಬೆಳ್ಳಗೆ ಮಾಡುತ್ತದೆ)</text>
+    </g>
+  </g>
+
+  <!-- Section 3: pH Scale -->
+  <g transform="translate(20, 540)">
+    <rect x="0" y="0" width="960" height="210" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೩. pH ಮಾಪಕ ಮತ್ತು ದಿನನಿತ್ಯದ ಜೀವನದಲ್ಲಿ ಪ್ರಾಮುಖ್ಯತೆ</text>
+    
+    <!-- pH Visual Scale -->
+    <rect x="30" y="55" width="900" height="30" fill="url(#phGradient)" rx="4"/>
+    <defs>
+      <linearGradient id="phGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ef4444"/>
+        <stop offset="50%" stop-color="#22c55e"/>
+        <stop offset="100%" stop-color="#3b82f6"/>
+      </linearGradient>
+    </defs>
+    <text x="30" y="100" class="body-text"><tspan font-weight="bold">0 (ಆಮ್ಲೀಯ)</tspan></text>
+    <text x="470" y="100" class="body-text" text-anchor="middle"><tspan font-weight="bold">7 (ತಟಸ್ಥ - ಶುದ್ಧ ನೀರು)</tspan></text>
+    <text x="930" y="100" class="body-text" text-anchor="end"><tspan font-weight="bold">14 (ಪ್ರತ್ಯಾಮ್ಲೀಯ)</tspan></text>
+
+    <g transform="translate(30, 115)">
+      <rect x="0" y="0" width="280" height="80" fill="#f0fdf4" stroke="#bbf7d0" rx="4"/>
+      <text x="10" y="25" class="card-title">🌱 ಮಣ್ಣು &amp; ಆಮ್ಲಮಳೆ</text>
+      <text x="10" y="48" class="body-text">• ಆಮ್ಲಮಳೆ pH &lt; 5.6</text>
+      <text x="10" y="68" class="body-text">• ಮಣ್ಣಿನ pH ಗೆ ಸುಣ್ಣ (CaO) ಸೇರ್ಪಡೆ</text>
+    </g>
+    <g transform="translate(340, 115)">
+      <rect x="0" y="0" width="280" height="80" fill="#f0fdf4" stroke="#bbf7d0" rx="4"/>
+      <text x="10" y="25" class="card-title">🦷 ಹಲ್ಲಿನ ಸವೆತ</text>
+      <text x="10" y="48" class="body-text">• ಬಾಯಿಯ pH &lt; 5.5 ಇದ್ದಾಗ</text>
+      <text x="10" y="68" class="body-text">• ಎನಾಮಲ್ (ಕ್ಯಾಲ್ಸಿಯಂ ಫಾಸ್ಫೇಟ್) ಸವೆಯುತ್ತದೆ</text>
+    </g>
+    <g transform="translate(650, 115)">
+      <rect x="0" y="0" width="280" height="80" fill="#f0fdf4" stroke="#bbf7d0" rx="4"/>
+      <text x="10" y="25" class="card-title">🐝 ಜೀವ ರಕ್ಷಣೆ</text>
+      <text x="10" y="48" class="body-text">• ಜೇನು ನೊಣದ ಕಡಿತ: ಮಿಥನೋಯಿಕ್ ಆಮ್ಲ</text>
+      <text x="10" y="68" class="body-text">• ಶಮನಕ್ಕೆ ಅಡುಗೆ ಸೋಡಾ ಹಚ್ಚುವುದು</text>
+    </g>
+  </g>
+
+  <!-- Section 4: Important Salts -->
+  <g transform="translate(20, 765)">
+    <rect x="0" y="0" width="960" height="560" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೪. ಪ್ರಮುಖ ಲವಣಗಳು, ಸೂತ್ರಗಳು ಮತ್ತು ಉಪಯೋಗಗಳು (Important Salts)</text>
+
+    <!-- Salt 1 -->
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="110" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+      <text x="15" y="25" class="card-title">1. ಚೆಲುವೆ ಪುಡಿ (Bleaching Powder)</text>
+      <text x="15" y="50" class="formula-text">ಸೂತ್ರ: CaOCl₂</text>
+      <text x="15" y="72" class="body-text">• ಕುಡಿಯುವ ನೀರನ್ನು ರೋಗಾಣುಮುಕ್ತಗೊಳಿಸಲು.</text>
+      <text x="15" y="92" class="body-text">• ಜವಳಿ ಕೈಗಾರಿಕೆಯಲ್ಲಿ ಹತ್ತಿ ವೆಳುಪುಗೊಳಿಸಲು.</text>
+    </g>
+    <!-- Salt 2 -->
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="110" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+      <text x="15" y="25" class="card-title">2. ಅಡುಗೆ ಸೋಡಾ (Baking Soda)</text>
+      <text x="15" y="50" class="formula-text">ಸೂತ್ರ: NaHCO₃</text>
+      <text x="15" y="72" class="body-text">• ಬೇಕರಿ ಪದಾರ್ಥಗಳನ್ನು ಮೃದುಗೊಳಿಸಲು (CO₂ ಬಿಡುಗಡೆ).</text>
+      <text x="15" y="92" class="body-text">• ಆಮ್ಲಪಿತ್ತಕ್ಕೆ (Acidity) ಪ್ರತ್ಯಾಮ್ಲವಾಗಿ (Antacid).</text>
+    </g>
+    <!-- Salt 3 -->
+    <g transform="translate(20, 180)">
+      <rect x="0" y="0" width="450" height="110" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+      <text x="15" y="25" class="card-title">3. ತೊಳೆಯುವ ಸೋಡಾ (Washing Soda)</text>
+      <text x="15" y="50" class="formula-text">ಸೂತ್ರ: Na₂CO₃·10H₂O</text>
+      <text x="15" y="72" class="body-text">• ಗಾಜು, ಸೋಪು ಮತ್ತು ಕಾಗದ ಕೈಗಾರಿಕೆಯಲ್ಲಿ.</text>
+      <text x="15" y="92" class="body-text">• ನೀರಿನ ಕಠಿಣತೆಯನ್ನು ನಿವಾರಿಸಲು.</text>
+    </g>
+    <!-- Salt 4 -->
+    <g transform="translate(490, 180)">
+      <rect x="0" y="0" width="450" height="110" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+      <text x="15" y="25" class="card-title">4. ಪ್ಲಾಸ್ಟರ್ ಆಫ್ ಪ್ಯಾರಿಸ್ (POP)</text>
+      <text x="15" y="50" class="formula-text">ಸೂತ್ರ: CaSO₄·½H₂O</text>
+      <text x="15" y="72" class="body-text">• ಮುರಿದ ಮೂಳೆಗಳನ್ನು ಸರಿಯಾದ ಸ್ಥಾನದಲ್ಲಿಡಲು.</text>
+      <text x="15" y="92" class="body-text">• ಆಟಿಕೆ, ಬೊಂಬೆ ಮತ್ತು ಅಲಂಕಾರಿಕ ವಸ್ತು ತಯಾರಿಕೆಗೆ.</text>
+    </g>
+
+    <!-- Chlor-Alkali Process Box -->
+    <g transform="translate(20, 305)">
+      <rect x="0" y="0" width="920" height="235" fill="#f0fdf4" stroke="#86efac" rx="6"/>
+      <text x="15" y="30" class="card-title" font-size="17">⚡ ಕ್ಲೋರ್-ಆಲ್ಕಲಿ ಪ್ರಕ್ರಿಯೆ (Chlor-Alkali Process)</text>
+      <text x="15" y="55" class="body-text">ಉಪ್ಪು ನೀರಿಗೆ (NaCl ದ್ರಾವಣ) ವಿದ್ಯುತ್ ಹರಿಸಿದಾಗ: <tspan font-weight="bold">2NaCl + 2H₂O ➔ 2NaOH + Cl₂↑ + H₂↑</tspan></text>
+      
+      <g transform="translate(20, 70)">
+        <rect x="0" y="0" width="270" height="145" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+        <text x="135" y="25" class="card-title" text-anchor="middle">ಆನೋಡ್ (+) ಬಳಿ</text>
+        <text x="135" y="55" class="formula-text" text-anchor="middle">Cl₂ (ಕ್ಲೋರಿನ್ ಅನಿಲ)</text>
+        <text x="135" y="85" class="body-text" text-anchor="middle">• ನೀರಿನ ಶುದ್ಧೀಕರಣ</text>
+        <text x="135" y="105" class="body-text" text-anchor="middle">• PVC &amp; CFC ತಯಾರಿಕೆ</text>
+      </g>
+      <g transform="translate(325, 70)">
+        <rect x="0" y="0" width="270" height="145" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+        <text x="135" y="25" class="card-title" text-anchor="middle">ಕ್ಯಾತೋಡ್ (-) ಬಳಿ</text>
+        <text x="135" y="55" class="formula-text" text-anchor="middle">H₂ (ಹೈಡ್ರೋಜನ್ ಅನಿಲ)</text>
+        <text x="135" y="85" class="body-text" text-anchor="middle">• ಇಂಧನವಾಗಿ ಬಳಕೆ</text>
+        <text x="135" y="105" class="body-text" text-anchor="middle">• ಗೊಬ್ಬರಕ್ಕೆ ಅಮೋನಿಯಾ</text>
+      </g>
+      <g transform="translate(630, 70)">
+        <rect x="0" y="0" width="270" height="145" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+        <text x="135" y="25" class="card-title" text-anchor="middle">ಕ್ಯಾತೋಡ್ ಬಳಿ ದ್ರಾವಣ</text>
+        <text x="135" y="55" class="formula-text" text-anchor="middle">NaOH (ಸೋಡಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್)</text>
+        <text x="135" y="85" class="body-text" text-anchor="middle">• ಲೋಹಗಳ ಗ್ರೀಸ್ ತೆಗೆಯಲು</text>
+        <text x="135" y="105" class="body-text" text-anchor="middle">• ಸೋಪು ಮತ್ತು ಸಾಬೂನು</text>
+      </g>
+    </g>
+  </g>
+</svg>

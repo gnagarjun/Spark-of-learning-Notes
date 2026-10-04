@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 24px; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 15px; fill: #e0e0e0; text-anchor: middle; }
+      .section-header { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 18px; fill: #ffffff; }
+      .card-title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 15px; fill: #4a148c; }
+      .body-text { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 13px; fill: #212121; }
+      .formula-text { font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; fill: #b71c1c; }
+      .box { fill: #ffffff; stroke: #cfd8dc; stroke-width: 2; rx: 8; ry: 8; }
+      .header-box { fill: #6a1b9a; rx: 6; ry: 6; }
+      .badge { fill: #f3e5f5; stroke: #e1bee7; stroke-width: 1; rx: 4; ry: 4; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#f4f6f9"/>
+
+  <!-- Header -->
+  <rect x="20" y="20" width="960" height="90" fill="#4a148c" rx="10" filter="url(#shadow)"/>
+  <text x="500" y="55" class="title">೪. ನಿಯಂತ್ರಣ ಮತ್ತು ಸಹಭಾಗಿತ್ವ (Control and Coordination)</text>
+  <text x="500" y="85" class="subtitle">10ನೇ ತರಗತಿ ವಿಜ್ಞಾನ (ಭಾಗ-೧) - ಪರೀಕ್ಷಾ ಸಹಾಯಾರ್ಥಿ ಪೋಸ್ಟರ್ ಚಾರ್ಟ್</text>
+
+  <!-- Section 1: Neuron and Reflex Arc -->
+  <g transform="translate(20, 130)">
+    <rect x="0" y="0" width="960" height="230" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೧. ನ್ಯೂರಾನ್ ಮತ್ತು ಪಟುಚಾಪ (Neuron &amp; Reflex Arc)</text>
+    
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="155" class="badge"/>
+      <text x="15" y="25" class="card-title">🧠 ನ್ಯೂರಾನ್ ಮಾರ್ಗ (Neuron Impulse)</text>
+      <text x="15" y="55" class="body-text" font-weight="bold">ಡೆಂಡ್ರೈಟ್ ➔ ಕೋಶಕಾಯ ➔ ಆಕ್ಸಾನ್ ➔ ನರತುದಿ ➔ ಸೈನಾಪ್ಸ್</text>
+      <text x="15" y="85" class="body-text">• <tspan font-weight="bold">ಸೈನಾಪ್ಸ್ (Synapse):</tspan> ಎರಡು ನ್ಯೂರಾನ್‌ಗಳ ನಡುವಿನ ಖಾಲಿ ಜಾಗ. ಇಲ್ಲಿ ಸಂವೇದನೆಯು ರಾಸಾಯನಿಕವಾಗಿ ಸಾಗುತ್ತದೆ.</text>
+      <text x="15" y="125" class="body-text">• <tspan font-weight="bold">ಗ್ರಾಹಕಗಳು:</tspan> ಕಣ್ಣು (ಬೆಳಕು), ಕಿವಿ (ಶಬ್ದ), ಮೂಗು (ಘ್ರಾಣ).</text>
+    </g>
+
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="155" class="badge"/>
+      <text x="15" y="25" class="card-title">⚡ ಪಟುಚಾಪ (Reflex Arc Pathway)</text>
+      <text x="15" y="50" class="body-text" font-weight="bold">ಪ್ರಚೋದನೆ (ಬಿಸಿ ವಸ್ತು) ➔ ಚರ್ಮ (ಗ್ರಾಹಕ)</text>
+      <text x="15" y="75" class="body-text" font-weight="bold">➔ ಸಂವೇದಿ ನರಕೋಶ ➔ ಬೆನ್ನುಹುರಿ (Spinal Cord)</text>
+      <text x="15" y="100" class="body-text" font-weight="bold">➔ ಪ್ರೇರಕ ನರಕೋಶ ➔ ಸ್ನಾಯು (ಕಾರ್ಯನಿರ್ವಾಹಕ) ➔ ಪ್ರತ್ಯುತ್ತರ</text>
+      <text x="15" y="130" class="body-text">• ಬೆನ್ನುಹುರಿಯು ಕ್ಷಿಪ್ರ ಅನಿಚ್ಛಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ.</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Human Brain -->
+  <g transform="translate(20, 375)">
+    <rect x="0" y="0" width="960" height="230" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೨. ಮಾನವನ ಮಿದುಳಿನ ಭಾಗಗಳು ಮತ್ತು ಕಾರ್ಯಗಳು (Human Brain)</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="280" height="155" fill="#f0f9ff" stroke="#bae6fd" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">1. ಮುನ್‌ಮಿದುಳು (Forebrain)</text>
+      <text x="15" y="55" class="body-text">• <tspan font-weight="bold">ಮಹಾಮಿದುಳು (Cerebrum):</tspan> ಆಲೋಚನೆ, ಸ್ಮರಣೆ, ಬುದ್ಧಿವಂತಿಕೆ.</text>
+      <text x="15" y="95" class="body-text">• ಐಚ್ಛಿಕ ಚಲನೆಗಳ ನಿಯಂತ್ರಣ.</text>
+      <text x="15" y="125" class="body-text">• ಹಸಿವಿನ ಕೇಂದ್ರ.</text>
+    </g>
+    <g transform="translate(340, 55)">
+      <rect x="0" y="0" width="280" height="155" fill="#f0fdf4" stroke="#bbf7d0" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">2. ನಡುಮಿದುಳು (Midbrain)</text>
+      <text x="15" y="55" class="body-text">• ದೃಷ್ಟಿ ಮತ್ತು ಶ್ರವಣ ಪ್ರತಿಕ್ರಿಯೆಗಳ ಸಮನ್ವಯ.</text>
+      <text x="15" y="95" class="body-text">• ಅನಿಚ್ಛಿಕ ಕ್ರಿಯೆಗಳ ಪ್ರಾಥಮಿಕ ನಿಯಂತ್ರಣ.</text>
+    </g>
+    <g transform="translate(660, 55)">
+      <rect x="0" y="0" width="280" height="155" fill="#fff7ed" stroke="#ffedd5" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">3. ಪಶ್ಚಿಮಮಿದುಳು (Hindbrain)</text>
+      <text x="15" y="55" class="body-text">• <tspan font-weight="bold">ಅನುಮಿದುಳು (Cerebellum):</tspan> ದೇಹದ ಸಮತೋಲನ, ಸೈಕಲ್ ಸವಾರಿಕೆ.</text>
+      <text x="15" y="100" class="body-text">• <tspan font-weight="bold">ಮೆಡುಲ್ಲಾ (Medulla):</tspan> ರಕ್ತದೊತ್ತಡ, ಜೊಲ್ಲು ಸುರಿಸುವುದು, ವಾಂತಿ ಮಾಡುವುದು.</text>
+    </g>
+  </g>
+
+  <!-- Section 3: Plant Hormones & Movements -->
+  <g transform="translate(20, 620)">
+    <rect x="0" y="0" width="960" height="340" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೩. ಸಸ್ಯ ಹಾರ್ಮೋನ್‌ಗಳು ಮತ್ತು ಚಲನೆಗಳು (Plant Hormones &amp; Movements)</text>
+
+    <!-- Hormones -->
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="265" fill="#f0fdf4" stroke="#86efac" rx="6"/>
+      <text x="15" y="25" class="card-title">🌱 ಸಸ್ಯ ಹಾರ್ಮೋನ್‌‌ಗಳು (Phytohormones)</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">1. ಆಕ್ಸಿನ್ (Auxin):</tspan> ಕೋಶಗಳ ಉದ್ದ ಬೆಳವಣಿಗೆ, ಬೆಳಕಿನ ಕಡೆಗೆ ಬಾಗುವುದು.</text>
+      <text x="15" y="95" class="body-text"><tspan font-weight="bold">2. ಗಿಬರೆಲಿನ್ (Gibberellin):</tspan> ಕಾಂಡದ ಬೆಳೆವಣಿಗೆಗೆ ನೆರವಾಗುತ್ತದೆ.</text>
+      <text x="15" y="135" class="body-text"><tspan font-weight="bold">3. ಸೈಟೋಕೈನಿನ್ (Cytokinin):</tspan> ಕೋಶ ವಿಭಜನೆ ಉತ್ತೇಜನ (ಹಣ್ಣು/ಬೀಜಗಳಲ್ಲಿ ಹೆಚ್ಚು).</text>
+      <text x="15" y="175" class="body-text"><tspan font-weight="bold">4. ಅಬ್ಸಿಸಿಕ್ ಆಮ್ಲ (Abscisic Acid):</tspan> ಬೆಳವಣಿಗೆ ಪ್ರತಿರೋಧಕ, ಎಲೆ ಉದುರುವುದು, ಬಾಡುವುದು.</text>
+    </g>
+
+    <!-- Movements -->
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="265" fill="#fefce8" stroke="#fef08a" rx="6"/>
+      <text x="15" y="25" class="card-title">🌻 ಅನುವರ್ತನೆ ಚಲನೆಗಳು (Tropic Movements)</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">• ಬೆಳಕಿನಾನುವರ್ತನೆ (Phototropism):</tspan> ಬೆಳಕಿನ ಕಡೆಗೆ ಚಿಗುರಿನ ಬೆಳವಣಿಗೆ.</text>
+      <text x="15" y="95" class="body-text"><tspan font-weight="bold">• ಗುರುತ್ವಾನುವರ್ತನೆ (Geotropism):</tspan> ಭೂಮಿಯ ಕಡೆಗೆ ಬೇರಿನ ಬೆಳೆವಣಿಗೆ.</text>
+      <text x="15" y="135" class="body-text"><tspan font-weight="bold">• ಜಲಾನುವರ್ತನೆ (Hydrotropism):</tspan> ನೀರಿನ ಕಡೆಗೆ ಬೇರಿನ ಚಲನೆ.</text>
+      <text x="15" y="175" class="body-text"><tspan font-weight="bold">• ರಾಸಾಯನಿಕಾನುವರ್ತನೆ (Chemotropism):</tspan> ಶಲಾಕಾ ಗ್ರ his ಕಡೆಗೆ ಪರಾಗನಾಳದ ಬೆಳವಣಿಗೆ.</text>
+      <text x="15" y="215" class="body-text"><tspan font-weight="bold">• ನಷ್ಟಿ ಚಲನೆ:</tspan> ಮುಟ್ಟಿದರೆ ಮುನಿ ಗಿಡ ಮುಚ್ಚಿಕೊಳ್ಳುವುದು (ಸ್ಪರ್ಶ).</text>
+    </g>
+  </g>
+
+  <!-- Section 4: Endocrine Glands -->
+  <g transform="translate(20, 975)">
+    <rect x="0" y="0" width="960" height="350" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೪. ಪ್ರಾಣಿ ಹಾರ್ಮೋನ್‌ಗಳು ಮತ್ತು ಗ್ರಂಥಿಗಳು (Human Endocrine Glands)</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">1. ಪಿಟ್ಯುಟರಿ ಗ್ರಂಥಿ</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಬೆಳವಣಿಗೆ ಹಾರ್ಮೋನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ಶರೀರದ ಎತ್ತರ ಮತ್ತು ಬೆಳವಣಿಗೆ. (ಕೊರತೆ ➔ ಕುಬ್ಜತೆ).</text>
+    </g>
+    <g transform="translate(340, 55)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">2. ಥೈರಾಯ್ಡ್ ಗ್ರಂಥಿ</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಥೈರಾಕ್ಸಿನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ಚಯಾಪಚಯ ನಿಯಂತ್ರಣ (ಅಯೋಡಿನ್ ಅಗತ್ಯ, ಕೊರತೆ ➔ ಗಳಗಂಡ).</text>
+    </g>
+    <g transform="translate(660, 55)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">3. ಮೇದೋಜೀರಕಾಂಗ</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಇನ್ಸುಲಿನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ರಕ್ತದಲ್ಲಿನ ಸಕ್ಕರೆ ನಿಯಂತ್ರಣ (ಕೊರತೆ ➔ ಮಧುಮೇಹ/Diabetes).</text>
+    </g>
+
+    <g transform="translate(20, 190)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">4. ಅಡ್ರಿನಲ್ ಗ್ರಂಥಿ</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಅಡ್ರಿನಲಿನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ತುರ್ತು ಪರಿಸ್ಥಿತಿ ಎದುರಿಸುವುದು (ಎದೆ ಬಡಿತ ಹೆಚ್ಚಳ).</text>
+    </g>
+    <g transform="translate(340, 190)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">5. ವೃಷಣಗಳು (ಪುರುಷ)</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಟೆಸ್ಟೋಸ್ಟೆರಾನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ಯೌವನಾರಂಭದ ಲೈಂಗಿಕ ಲಕ್ಷಣಗಳು.</text>
+    </g>
+    <g transform="translate(660, 190)">
+      <rect x="0" y="0" width="280" height="120" fill="#faf5ff" stroke="#e9d5ff" rx="4"/>
+      <text x="15" y="25" class="card-title">6. ಅಂಡಾಶಯ (ಸ್ತ್ರೀ)</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹಾರ್ಮೋನ್:</tspan> ಈಸ್ಟ್ರೋಜೆನ್</text>
+      <text x="15" y="70" class="body-text">• <tspan font-weight="bold">ಕಾರ್ಯ:</tspan> ಸ್ತ್ರೀ ಲೈಂಗಿಕ ಅಂಗಗಳ ಬೆಳವಣಿಗೆ.</text>
+    </g>
+  </g>
+</svg>

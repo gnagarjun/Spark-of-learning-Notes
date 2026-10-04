@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 22px; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 15px; fill: #e0e0e0; text-anchor: middle; }
+      .section-header { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 18px; fill: #ffffff; }
+      .card-title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 15px; fill: #0f766e; }
+      .body-text { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 13px; fill: #212121; }
+      .formula-text { font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; fill: #b71c1c; }
+      .box { fill: #ffffff; stroke: #cfd8dc; stroke-width: 2; rx: 8; ry: 8; }
+      .header-box { fill: #0d9488; rx: 6; ry: 6; }
+      .badge { fill: #ccfbf1; stroke: #99f6e4; stroke-width: 1; rx: 4; ry: 4; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#f4f6f9"/>
+
+  <!-- Header -->
+  <rect x="20" y="20" width="960" height="90" fill="#0f766e" rx="10" filter="url(#shadow)"/>
+  <text x="500" y="55" class="title">೬. ವಿದ್ಯುತ್ ಪ್ರವಾಹದ ಕಾಂತೀಯ ಪರಿಣಾಮಗಳು</text>
+  <text x="500" y="85" class="subtitle">10ನೇ ತರಗತಿ ವಿಜ್ಞಾನ (ಭಾಗ-೧) - ಪರೀಕ್ಷಾ ಸಹಾಯಾರ್ಥಿ ಪೋಸ್ಟರ್ ಚಾರ್ಟ್</text>
+
+  <!-- Section 1: Field Lines & Solenoid -->
+  <g transform="translate(20, 130)">
+    <rect x="0" y="0" width="960" height="230" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೧. ಕಾಂತೀಯ ಕ್ಷೇತ್ರ ರೇಖೆಗಳು ಮತ್ತು ವಾಹಕಗಳ ವಿನ್ಯಾಸ</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="155" class="badge"/>
+      <text x="15" y="25" class="card-title">🧲 ಕ್ಷೇತ್ರ ರೇಖೆಗಳ ಗುಣಗಳು</text>
+      <text x="15" y="50" class="body-text">• ಉತ್ತರ (N) ಧ್ರುವದಿಂದ ಹೊರಟು ದಕ್ಷಿಣ (S) ಧ್ರುವವನ್ನು ತಲುಪುತ್ತವೆ.</text>
+      <text x="15" y="75" class="body-text">• ಇವು ಆವೃತವಾಗಿರುವ ಮುಚ್ಚಿದ ರೇಖೆಗಳು.</text>
+      <text x="15" y="100" class="body-text">• ಕ್ಷೇತ್ರ ರೇಖೆಗಳು ಎಂದಿಗೂ <tspan font-weight="bold">ಪರಸ್ಪರ ಛೇದಿಸುವುದಿಲ್ಲ</tspan>.</text>
+      <text x="15" y="125" class="body-text">• ಧ್ರುವಗಳ ಬಳಿ ದಟ್ಟವಾಗಿರುತ್ತವೆ (ಸಾಮರ್ಥ್ಯ ಹೆಚ್ಚು).</text>
+    </g>
+
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="155" class="badge"/>
+      <text x="15" y="25" class="card-title">🌀 ಸೊಲೆನಾಯ್ಡ್ (Solenoid)</text>
+      <text x="15" y="50" class="body-text">• ಸಿಲಿಂಡರ್ ಆಕಾರದಲ್ಲಿ ಸುತ್ತಲ್ಪಟ್ಟ ತಾಮ್ರದ ತಂತಿಯ ಸುರುಳಿ.</text>
+      <text x="15" y="75" class="body-text">• ಇದರ ಒಳಗಿನ ಕಾಂತೀಯ ಕ್ಷೇತ್ರವು <tspan font-weight="bold">ಏಕರೂಪವಾಗಿರುತ್ತದೆ</tspan> (ಸಮಾಂತರ ರೇಖೆಗಳು).</text>
+      <text x="15" y="100" class="body-text">• ಇದು ದಂಡಕಾಂತದಂತೆಯೇ ವರ್ತಿಸುತ್ತದೆ.</text>
+      <text x="15" y="125" class="body-text">• ಒಳಗೆ ಮೃದು ಕಬ್ಬಿಣವಿಟ್ಟು <tspan font-weight="bold">ವಿದ್ಯುತ್ಕಾಂತ (Electromagnet)</tspan> ತಯಾರಿಸಬಹುದು.</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Physics Rules -->
+  <g transform="translate(20, 375)">
+    <rect x="0" y="0" width="960" height="380" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೨. ಭೌತಶಾಸ್ತ್ರದ ಪ್ರಮುಖ ನಿಯಮಗಳು (Physics Rules Selection)</text>
+
+    <!-- Rule 1 -->
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="280" height="305" fill="#f0fdf4" stroke="#86efac" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">👍 ಬಲಗೈ ಹೆಬ್ಬೆರಳ ನಿಯಮ</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">ಉದ್ದೇಶ:</tspan> ಕಾಂತೀಯ ಕ್ಷೇತ್ರದ ದಿಕ್ಕನ್ನು ತಿಳಿಯಲು.</text>
+      <text x="15" y="95" class="body-text">• <tspan font-weight="bold">ಹೆಬ್ಬೆರಳು:</tspan> ವಿದ್ಯುತ್ ಪ್ರವಾಹದ ದಿಕ್ಕು (I).</text>
+      <text x="15" y="135" class="body-text">• <tspan font-weight="bold">ಮಡಚಿದ ಬೆರಳುಗಳು:</tspan> ಕಾಂತೀಯ ಕ್ಷೇತ್ರದ ದಿಕ್ಕು (B - ಏಕಕೇಂದ್ರೀಯ ವೃತ್ತಗಳು).</text>
+      <text x="15" y="185" class="body-text">• ನೇರ ವಾಹಕ ಮತ್ತು ವೃತ್ತಾಕಾರದ ಸುರುಳಿಗೆ ಅನ್ವಯಿಸುತ್ತದೆ.</text>
+    </g>
+
+    <!-- Rule 2 -->
+    <g transform="translate(340, 55)">
+      <rect x="0" y="0" width="280" height="305" fill="#fefce8" stroke="#fef08a" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">👈 ಫ್ಲೆಮಿಂಗ್‌ನ ಎಡಗೈ ನಿಯಮ</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">ಉದ್ದೇಶ:</tspan> ವಾಹಕದ ಮೇಲಿನ ಚಲನೆ/ಬಲದ ದಿಕ್ಕನ್ನು ತಿಳಿಯಲು.</text>
+      <text x="15" y="95" class="body-text">• <tspan font-weight="bold">ತೋರುಬೆರಳು:</tspan> ಕಾಂತೀಯ ಕ್ಷೇತ್ರ (B)</text>
+      <text x="15" y="125" class="body-text">• <tspan font-weight="bold">ಮಧ್ಯದ ಬೆರಳು:</tspan> ವಿದ್ಯುತ್ ಪ್ರವಾಹ (I)</text>
+      <text x="15" y="155" class="body-text">• <tspan font-weight="bold">ಹೆಬ್ಬೆರಳು:</tspan> ಚಲನೆ / ಯಾಂತ್ರಿಕ ಬಲ (F)</text>
+      <text x="15" y="195" class="body-text"><tspan font-weight="bold">ಅನ್ವಯ:</tspan> ವಿದ್ಯುತ್ ಮೋಟಾರ್ (ಯಾಂತ್ರಿಕ ಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತನೆ).</text>
+    </g>
+
+    <!-- Rule 3 -->
+    <g transform="translate(660, 55)">
+      <rect x="0" y="0" width="280" height="305" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+      <text x="140" y="25" class="card-title" text-anchor="middle">👉 ಫ್ಲೆಮಿಂಗ್‌ನ ಬಲಗೈ ನಿಯಮ</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">ಉದ್ದೇಶ:</tspan> ಪ್ರೇರಿತ ವಿದ್ಯುತ್ ಪ್ರವಾಹದ ದಿಕ್ಕನ್ನು ತಿಳಿಯಲು.</text>
+      <text x="15" y="95" class="body-text">• <tspan font-weight="bold">ತೋರುಬೆರಳು:</tspan> ಕಾಂತೀಯ ಕ್ಷೇತ್ರ (B)</text>
+      <text x="15" y="125" class="body-text">• <tspan font-weight="bold">ಹೆಬ್ಬೆರಳು:</tspan> ವಾಹಕದ ಚಲನೆ (Motion)</text>
+      <text x="15" y="155" class="body-text">• <tspan font-weight="bold">ಮಧ್ಯದ ಬೆರಳು:</tspan> ಪ್ರೇರಿತ ವಿದ್ಯುತ್ (Induced Current)</text>
+      <text x="15" y="205" class="body-text"><tspan font-weight="bold">ಅನ್ವಯ:</tspan> ವಿದ್ಯುತ್ಕಾಂತೀಯ ಪ್ರೇರಣೆ (EMI) / ಜನರೇಟರ್.</text>
+    </g>
+  </g>
+
+  <!-- Section 3: Electromagnetic Induction -->
+  <g transform="translate(20, 770)">
+    <rect x="0" y="0" width="960" height="180" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೩. ವಿದ್ಯುತ್ಕಾಂತೀಯ ಪ್ರೇರಣೆ ಮತ್ತು ಗ್ಯಾಲ್ವನೋಮೀಟರ್ (EMI)</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="920" height="105" fill="#f0fdf4" stroke="#bbf7d0" rx="6"/>
+      <text x="15" y="25" class="card-title">⚡ ವಿದ್ಯುತ್ಕಾಂತೀಯ ಪ್ರೇರಣೆ (Electromagnetic Induction):</text>
+      <text x="15" y="50" class="body-text">• ಬದಲಾಗುವ ಕಾಂತೀಯ ಕ್ಷೇತ್ರದಿಂದ ಸುರುಳಿಯಲ್ಲಿ ವಿದ್ಯುತ್ ಪ್ರವಾಹವನ್ನು ಪ್ರೇರೇಪಿಸುವ ಪ್ರಕ್ರಿಯೆ (ಫ್ಯಾರಡೆ ಸಂಶೋಧನೆ).</text>
+      <text x="15" y="75" class="body-text">• <tspan font-weight="bold">ಗ್ಯಾಲ್ವನೋಮೀಟರ್ (Galvanometer):</tspan> ಮಂಡಲದಲ್ಲಿ ವಿದ್ಯುತ್ ಪ್ರವಾಹದ ಉಪಸ್ಥಿತಿಯನ್ನು ಪತ್ತೆಹಚ್ಚುವ ಸಾಧನ.</text>
+    </g>
+  </g>
+
+  <!-- Section 4: Domestic Circuit -->
+  <g transform="translate(20, 965)">
+    <rect x="0" y="0" width="960" height="360" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೪. ಗೃಹಬಳಕೆಯ ವಿದ್ಯುನ್ಮಂಡಲ ಮತ್ತು ಭದ್ರತಾ ಕ್ರಮಗಳು (Domestic Circuits)</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="280" fill="#fff7ed" stroke="#ffedd5" rx="6"/>
+      <text x="15" y="25" class="card-title">🔌 ತಂತಿಗಳ ಪ್ರಕಾರಗಳು (220V, 50Hz)</text>
+      <text x="15" y="55" class="body-text">1. <tspan font-weight="bold">ಲೈವ್ ತಂತಿ (Live Wire):</tspan> ಕೆಂಪು ಬಣ್ಣದ ರೋಧನ, 220 V ವಿಭವಾಂತರ ಹೊಂದಿರುತ್ತದೆ.</text>
+      <text x="15" y="95" class="body-text">2. <tspan font-weight="bold">ನ್ಯೂಟ್ರಲ್ ತಂತಿ (Neutral Wire):</tspan> ಕಪ್ಪು ಬಣ್ಣದ ರೋಧನ, 0 V ವಿಭವಾಂತರ ಹೊಂದಿರುತ್ತದೆ.</text>
+      <text x="15" y="135" class="body-text">3. <tspan font-weight="bold">ಅರ್ಥಿಂಗ್ ತಂತಿ (Earth Wire):</tspan> ಹಸಿರು ಬಣ್ಣದ ರೋಧನ, ಭೂಮಿಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿರುತ್ತದೆ (ಲೋಹದ ಕವರ್ ಇರುವ ಸಾಧನಗಳಿಂದ ಆಘಾತ ತಡೆಯಲು).</text>
+    </g>
+
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="280" fill="#fef1f2" stroke="#fecdd3" rx="6"/>
+      <text x="15" y="25" class="card-title">⚠️ ಅಪಾಯಗಳು &amp; ಸುರಕ್ಷತೆ</text>
+      <text x="15" y="55" class="body-text"><tspan font-weight="bold">• ಶಾರ್ಟ್ ಸರ್ಕ್ಯೂಟ್ (Short Circuit):</tspan> ಲೈವ್ ಮತ್ತು ನ್ಯೂಟ್ರಲ್ ತಂತಿಗಳು ನೇರವಾಗಿ ಸ್ಪರ್ಶಿಸಿ ಹಠಾತ್ ಪ್ರವಾಹ ಹೆಚ್ಚಾಗುವುದು.</text>
+      <text x="15" y="105" class="body-text"><tspan font-weight="bold">• ಓವರ್‌ಲೋಡಿಂಗ್ (Overloading):</tspan> ಒಂದೇ ಸಾಕೆಟ್‌ಗೆ ಹೆಚ್ಚು ಸಾಮರ್ಥ್ಯದ ಸಾಧನಗಳನ್ನು ಜೋಡಿಸಿ ಅಧಿಕ ಪ್ರವಾಹ ಹರಿಯುವುದು.</text>
+      <text x="15" y="155" class="body-text"><tspan font-weight="bold">• ವಿದ್ಯುತ್ ಫ್ಯೂಸ್ (Fuse):</tspan> ಕರಗುವ ಬಿಂದು ಕಡಿಮೆಯಿರುವ ತಂತಿ. ಅಧಿಕ ಪ್ರವಾಹ ಹರಿದಾಗ ಕರಗಿ ಮಂಡಲವನ್ನು ಕಡಿತಗೊಳಿಸಿ ರಕ್ಷಿಸುತ್ತದೆ.</text>
+    </g>
+  </g>
+</svg>

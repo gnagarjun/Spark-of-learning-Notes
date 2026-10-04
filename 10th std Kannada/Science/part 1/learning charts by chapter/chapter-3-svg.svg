@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 24px; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 15px; fill: #e0e0e0; text-anchor: middle; }
+      .section-header { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 18px; fill: #ffffff; }
+      .card-title { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-weight: bold; font-size: 15px; fill: #1b5e20; }
+      .body-text { font-family: 'Noto Sans Kannada', Arial, sans-serif; font-size: 13px; fill: #212121; }
+      .formula-text { font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; fill: #b71c1c; }
+      .box { fill: #ffffff; stroke: #cfd8dc; stroke-width: 2; rx: 8; ry: 8; }
+      .header-box { fill: #2e7d32; rx: 6; ry: 6; }
+      .badge { fill: #e8f5e9; stroke: #a5d6a7; stroke-width: 1; rx: 4; ry: 4; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#f4f6f9"/>
+
+  <!-- Header -->
+  <rect x="20" y="20" width="960" height="90" fill="#1b5e20" rx="10" filter="url(#shadow)"/>
+  <text x="500" y="55" class="title">೩. ಜೀವ ಕ್ರಿಯೆಗಳು (Life Processes)</text>
+  <text x="500" y="85" class="subtitle">10ನೇ ತರಗತಿ ವಿಜ್ಞಾನ (ಭಾಗ-೧) - ಪರೀಕ್ಷಾ ಸಹಾಯಾರ್ಥಿ ಪೋಸ್ಟರ್ ಚಾರ್ಟ್</text>
+
+  <!-- Section 1: Nutrition -->
+  <g transform="translate(20, 130)">
+    <rect x="0" y="0" width="960" height="180" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೧. ಪೋಷಣೆ ಮತ್ತು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ (Nutrition)</text>
+    
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="110" class="badge"/>
+      <text x="15" y="25" class="card-title">🌱 ಸ್ವಪೋಷಕ ಪೋಷಣೆ (Photosynthesis)</text>
+      <text x="15" y="50" class="formula-text">6CO₂ + 12H₂O ➔ C₆H₁₂O₆ + 6H₂O + 6O₂↑</text>
+      <text x="15" y="72" class="body-text">• ಹರಿತ್ತು (Chlorophyll) ಬೆಳಕನ್ನು ಹೀರುತ್ತದೆ.</text>
+      <text x="15" y="92" class="body-text">• ಕಾರ್ಬೊಹೈಡ್ರೇಟ್ ಮತ್ತು O₂ ಬಿಡುಗಡೆಯಾಗುತ್ತದೆ.</text>
+    </g>
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="110" class="badge"/>
+      <text x="15" y="25" class="card-title">🐾 ಪರಪೋಷಕ ಪೋಷಣೆ (Heterotrophic)</text>
+      <text x="15" y="48" class="body-text">• <tspan font-weight="bold">ಸಾಪ್ರೋಫೈಟಿಕ್ (ಕೊಳೆತನಿ):</tspan> ಶಿಲೀಂಧ್ರ, ಅಣಬೆ</text>
+      <text x="15" y="68" class="body-text">• <tspan font-weight="bold">ಪರಾವಲಂಬಿ (Parasitic):</tspan> ಕುಸ್ಕುಟ, ಉಣ್ಣೆ</text>
+      <text x="15" y="88" class="body-text">• <tspan font-weight="bold">ಹೋಲೋಝೋಯಿಕ್:</tspan> ಅಮೀಬಾ, ಮಾನವ (ಆಹಾರ ಸೇವನೆ)</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Respiration Breakdown -->
+  <g transform="translate(20, 325)">
+    <rect x="0" y="0" width="960" height="250" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೨. ಉಸಿರಾಟ - ಗ್ಲೂಕೋಸ್ ವಿಘಟನೆಯ ೩ ಮಾರ್ಗಗಳು (Respiration)</text>
+
+    <!-- Main Glucose Flow Diagram -->
+    <rect x="360" y="50" width="240" height="35" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" rx="4"/>
+    <text x="480" y="73" class="card-title" text-anchor="middle">ಗ್ಲೂಕೋಸ್ (6-ಕಾರ್ಬನ್)</text>
+    
+    <text x="480" y="105" class="body-text" text-anchor="middle">⬇️ (ಕೋಶದ್ರವ್ಯದಲ್ಲಿ - Cytoplasm)</text>
+    
+    <rect x="360" y="115" width="240" height="35" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" rx="4"/>
+    <text x="480" y="138" class="card-title" text-anchor="middle">ಪೈರುವೇಟ್ (3-ಕಾರ್ಬನ್) + ಶಕ್ತಿ</text>
+
+    <!-- 3 Pathways -->
+    <g transform="translate(20, 165)">
+      <rect x="0" y="0" width="280" height="70" fill="#ffebee" stroke="#ffcdd2" rx="4"/>
+      <text x="140" y="20" class="card-title" text-anchor="middle">೧. O₂ ಇಲ್ಲದೆ (ಈಸ್ಟ್)</text>
+      <text x="140" y="42" class="body-text" text-anchor="middle">ಎಥನಾಲ್ + CO₂ + ಶಕ್ತಿ</text>
+      <text x="140" y="60" class="body-text" text-anchor="middle">(ಕಿಣ್ವನ / Fermentation)</text>
+    </g>
+
+    <g transform="translate(340, 165)">
+      <rect x="0" y="0" width="280" height="70" fill="#fff3e0" stroke="#ffe0b2" rx="4"/>
+      <text x="140" y="20" class="card-title" text-anchor="middle">೨. O₂ ಕೊರತೆ (ಸ್ನಾಯು)</text>
+      <text x="140" y="42" class="body-text" text-anchor="middle">ಲ್ಯಾಕ್ಟಿಕ್ ಆಮ್ಲ + ಶಕ್ತಿ</text>
+      <text x="140" y="60" class="body-text" text-anchor="middle">(ಸ್ನಾಯು ಸೆಳೆತಕ್ಕೆ ಕಾರಣ)</text>
+    </g>
+
+    <g transform="translate(660, 165)">
+      <rect x="0" y="0" width="280" height="70" fill="#e8f5e9" stroke="#c8e6c9" rx="4"/>
+      <text x="140" y="20" class="card-title" text-anchor="middle">೩. O₂ ಉಪಸ್ಥಿತಿ (ಮೈಟೊಕಾಂಡ್ರಿಯಾ)</text>
+      <text x="140" y="42" class="body-text" text-anchor="middle">CO₂ + H₂O + ಶಕ್ತಿ (ATP)</text>
+      <text x="140" y="60" class="body-text" text-anchor="middle">(ಹೆಚ್ಚು ಶಕ್ತಿ ಬಿಡುಗಡೆ)</text>
+    </g>
+  </g>
+
+  <!-- Section 3: Transportation -->
+  <g transform="translate(20, 590)">
+    <rect x="0" y="0" width="960" height="340" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೩. ಸಾಗಾಣಿಕೆ ವ್ಯೂಹ - ಮಾನವ ಮತ್ತು ಸಸ್ಯಗಳು (Transportation)</text>
+
+    <!-- Human Circulation -->
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="450" height="265" fill="#f0f9ff" stroke="#bae6fd" rx="6"/>
+      <text x="15" y="25" class="card-title">❤️ ಮಾನವನ ದ್ವಿ-ರಕ್ತಪರಿಚಲನೆ (Double Circulation)</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ಹೃದಯ:</tspan> ೪ ಕೋಣೆಗಳು (೨ ಅಲಿಂಡ, ೨ ನಿಲಯ).</text>
+      <text x="15" y="70" class="body-text">• ರಕ್ತವು ಹೃದಯದ ಮೂಲಕ ಎರಡು ಬಾರಿ ಹಾದುಹೋಗುತ್ತದೆ.</text>
+      
+      <rect x="15" y="85" width="420" height="165" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+      <text x="25" y="110" class="card-title">ನಾಳಗಳ ವ್ಯತ್ಯಾಸ:</text>
+      <text x="25" y="135" class="body-text"><tspan font-weight="bold">ಅಪಧಮನಿಗಳು (Arteries):</tspan> ಶುದ್ಧ ರಕ್ತವನ್ನು ಹೃದಯದಿಂದ ದೇಹಕ್ಕೆ ಒಯ್ಯುತ್ತವೆ (ದಪ್ಪ ಗೋಡೆ).</text>
+      <text x="25" y="175" class="body-text"><tspan font-weight="bold">ಅಭಿಧಮನಿಗಳು (Veins):</tspan> ಅಶುದ್ಧ ರಕ್ತವನ್ನು ಹೃದಯಕ್ಕೆ ತರುತ್ತವೆ (ವಾಲ್ವ್‌ಗಳಿರುತ್ತವೆ).</text>
+      <text x="25" y="215" class="body-text"><tspan font-weight="bold">ಪ್ಲೇಟ್‌‌ಲೆಟ್‌ಗಳು:</tspan> ರಕ್ತ ಹೆಪ್ಪುಗಟ್ಟಲು ನೆರವಾಗುತ್ತವೆ.</text>
+    </g>
+
+    <!-- Plant Transport -->
+    <g transform="translate(490, 55)">
+      <rect x="0" y="0" width="450" height="265" fill="#f0fdf4" stroke="#bbf7d0" rx="6"/>
+      <text x="15" y="25" class="card-title">🪴 ಸಸ್ಯಗಳಲ್ಲಿ ಸಾಗಾಣಿಕೆ (Xylem &amp; Phloem)</text>
+      
+      <g transform="translate(15, 45)">
+        <rect x="0" y="0" width="420" height="100" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+        <text x="15" y="25" class="card-title">1. ಕ್ಸೈಲಂ (Xylem)</text>
+        <text x="15" y="48" class="body-text">• ನೀರು ಮತ್ತು ಖನಿಜಗಳನ್ನು ಸಾಗಿಸುತ್ತದೆ.</text>
+        <text x="15" y="68" class="body-text">• ಏಕಮುಖ ಚಲನೆ (ಬೇರುಗಳಿಂದ ಮೇಲಕ್ಕೆ - ಬಾಷ್ಪವಿಸರ್ಜನಾ ಸೆಳೆತ).</text>
+      </g>
+      <g transform="translate(15, 155)">
+        <rect x="0" y="0" width="420" height="100" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+        <text x="15" y="25" class="card-title">2. ಫ್ಲೋಯಂ (Phloem)</text>
+        <text x="15" y="48" class="body-text">• ತಯಾರಿಸಿದ ಆಹಾರವನ್ನು (ಸಕ್ಕರೆ) ವರ್ಗಾಯಿಸುತ್ತದೆ.</text>
+        <text x="15" y="68" class="body-text">• ದ್ವಿಮುಖ ಚಲನೆ (ATP ಶಕ್ತಿಯನ್ನು ಬಳಸುತ್ತದೆ).</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Section 4: Excretion -->
+  <g transform="translate(20, 945)">
+    <rect x="0" y="0" width="960" height="380" class="box" filter="url(#shadow)"/>
+    <rect x="10" y="10" width="940" height="32" class="header-box"/>
+    <text x="20" y="32" class="section-header">೪. ವಿಸರ್ಜನಾ ವ್ಯೂಹ (Excretory System)</text>
+
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="920" height="150" fill="#fff7ed" stroke="#ffedd5" rx="6"/>
+      <text x="15" y="25" class="card-title">🧬 ಮೂತ್ರಪಿಂಡ ಮತ್ತು ನೆಫ್ರಾನ್ (Nephron Structural Unit)</text>
+      <text x="15" y="50" class="body-text">• <tspan font-weight="bold">ವಿಸರ್ಜನಾ ಅಂಗಗಳು:</tspan> ಒಂದು ಜೊತೆ ಮೂತ್ರಪಿಂಡಗಳು, ಮೂತ್ರನಾಳ, ಮೂತ್ರಕೋಶ, ಮೂತ್ರದ್ವಾರ.</text>
+      <text x="15" y="75" class="body-text">• <tspan font-weight="bold">ನೆಫ್ರಾನ್‌‌ ಕಾರ್ಯ:</tspan> ರಕ್ತದಲ್ಲಿನ ಯೂರಿಯಾ, ಯೂರಿಕ್ ಆಮ್ಲ ಹಾಗೂ ತ್ಯಾಜ್ಯಗಳನ್ನು ಶೋಧಿಸುವುದು.</text>
+      <text x="15" y="100" class="body-text">• <tspan font-weight="bold">ಮರುಹೀರಿಕೆ:</tspan> ಗ್ಲೂಕೋಸ್, ಅಮೈನೋ ಆಮ್ಲ, ನೀರು ಮತ್ತು ಲವಣಗಳನ್ನು ಬೌಮನ್ನನ ಕೋಶದಲ್ಲಿ ಮರುಹೀರಲಾಗುತ್ತದೆ.</text>
+      <text x="15" y="125" class="body-text">• <tspan font-weight="bold">ಹಿಮೋಡಯಾಲಿಸಿಸ್:</tspan> ಮೂತ್ರಪಿಂಡ ವೈಫಲ್ಯವಾದಾಗ ಕೃತಕ ಮೂತ್ರಪಿಂಡದ ಮೂಲಕ ರಕ್ತ ಶೋಧಿಸುವ ಪ್ರಕ್ರಿಯೆ.</text>
+    </g>
+
+    <g transform="translate(20, 220)">
+      <rect x="0" y="0" width="920" height="135" fill="#f0fdf4" stroke="#bbf7d0" rx="6"/>
+      <text x="15" y="25" class="card-title">🍁 ಸಸ್ಯಗಳ ವಿಸರ್ಜನೆ (Excretion in Plants)</text>
+      <text x="15" y="50" class="body-text">೧. ಬಾಷ್ಪ ವಿಸರ್ಜನೆ (Transpiration) ಮೂಲಕ ಹೆಚ್ಚುವರಿ ನೀರನ್ನು ಹೊರಹಾಕುವುದು.</text>
+      <text x="15" y="75" class="body-text">೨. ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿ ತ್ಯಾಜ್ಯ ಶೇಖರಿಸಿ ಎಲೆ ಉದುರಿಸುವುದು.</text>
+      <text x="15" y="100" class="body-text">೩. ಹಳೆಯ ಕ್ಸೈಲಂನಲ್ಲಿ ಗಮ್ ಮತ್ತು ರಾಳಗಳ (Resins) ರೂಪದಲ್ಲಿ ತ್ಯಾಜ್ಯ ಸಂಗ್ರಹಣೆ.</text>
+    </g>
+  </g>
+</svg>
